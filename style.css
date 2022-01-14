@@ -8,13 +8,16 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    
 
 }
+
 .highlight{
     padding-left: 120px;
     font-size: 24px;
     
 }
+
 .banner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -128,3 +131,95 @@ half{
     font-size: 14px;
     font-weight: bold;
 }
+/* about me */
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.expart{
+    color: #787885;
+    font-size: 15px;
+    padding-left: 150px;
+}
+.angel{
+    font-size: 30px;
+    display: flex;
+   margin-top: 50px;
+  
+    
+}
+.about-me{
+    margin-left: 130px;
+     margin-bottom: 60px;
+}
+.name{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); */
+    padding: 10px 15px;
+}
+.details{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); */
+    padding: 10px 15px;
+}
+.photo{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); */
+    padding: 10px 15px;
+}
+.icon{
+    color: white;
+    height: 40px;
+    width:40px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.icon-2{
+  color: white;
+  height: 40px;
+  width:40px;
+  background-color: red;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.anik img{
+    width: 80%;
+}
+/* footer css */
+
+footer{
+    background-color: #0A0826;
+    width: 1440px;
+    height: 239px;
+    text-align: center;
+    padding:50px 0 ;
+}
+
+footer{
+    width: 1440px;
+height: 239px;
+}
+footer h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+}
+footer small{
+  color: #D9DBE1;
+  font-size: 14px;
+
+}
+
