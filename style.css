@@ -217,8 +217,8 @@ nav{
 
 footer{
     background-color: #0A0826;
-    width: 1440px;
-    height: 239px;
+     width: 1440px;
+    height: 239px; 
     text-align: center;
     padding:50px 0 ;
 }
@@ -273,9 +273,7 @@ footer small{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .products{
-        margin-bottom: 500px;
-    }
+    
      
  }
 
