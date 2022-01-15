@@ -11,12 +11,33 @@ body{
     
 
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    
+}
+.navigation li{
+    list-style: none;
+    padding: 10px 20px;
+    
+}
+
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3A3A3A;
+    font-weight: 700;
+    
+}
 
 .highlight{
     padding-left: 120px;
     font-size: 24px;
-    
 }
+
 
 .banner{
     display: grid;
@@ -184,8 +205,8 @@ footer{
 }
 
 footer{
-    width: 1440px;
-height: 239px;
+    width: 1440;
+    height: 239px;
 }
 footer h3{
     color: white;
