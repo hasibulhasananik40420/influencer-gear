@@ -37,6 +37,19 @@ nav{
     padding-left: 120px;
     font-size: 24px;
 }
+ .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 15px 0;
+    align-items: center;
+
+}
 
 
 .banner{
